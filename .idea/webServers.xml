@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6a7a99ed-f566-43e5-b6e5-3edcd7e238f9" name="yyserver2" url="http://192.168.18.101:22">
+        <fileTransfer rootFolder="/root/dushu_spider02" accessType="SFTP" host="192.168.18.158" port="22" sshConfigId="9b6bb08d-9fdd-4e7f-98d2-626ae7ba4b77" sshConfig="root@192.168.18.158:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ad4fee07-6a07-4250-948d-ee9420ddb285" name="ubuntu_server" url="http://192.168.18.158:22">
+        <fileTransfer rootFolder="/root/dushu_spider" accessType="SFTP" host="192.168.18.158" port="22" sshConfigId="9b6bb08d-9fdd-4e7f-98d2-626ae7ba4b77" sshConfig="root@192.168.18.158:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
